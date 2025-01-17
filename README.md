@@ -10,4 +10,4 @@ Beyond work, I enjoy acroyoga, contemporary dance, and playing board games with 
 
 ### Case Studies
 
-#### [Sex prediction from psychological variables](https://raw.githubusercontent.com/camila-cremades/Machine-Learning/refs/heads/main/Sex-prediction-from-psychological-variables.html?token=GHSAT0AAAAAAC5C2BY737DACH5AWML2VBS4Z4JNSHA)
+#### [Sex prediction from psychological variables](https://camila-cremades.github.io/Case-Studies/Sex-prediction-from-psychological-variables.html)
