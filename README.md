@@ -1,4 +1,4 @@
-# Camila Cremades' Portfolio
+# <span style="color: purple;">Camila Cremades' Portfolio</span>
 
 ### About me
 
