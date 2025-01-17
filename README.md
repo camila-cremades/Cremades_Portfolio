@@ -6,7 +6,7 @@ I am a data enthusiast with a strong background in psychology and data analytics
 
 I am currently a forum moderator for the Google Data Analytics courses on Coursera, where I assist students in their analytics journey. I am eager to join a team of experienced professionals to continue learning and expanding my expertise in data analytics.
 
-Beyond work, I enjoy acroyoga, contemporary dance, and playing board games with friends. For me, answering questions through data feels like solving a captivating board game mystery—unraveling clues and discovering meaningful solutions.
+Beyond work, I enjoy acroyoga, contemporary dance, and playing board games with friends. For me, answering questions through data feels like solving a captivating board game mystery, unraveling clues and discovering meaningful solutions.
 
 ### Case Studies
 
