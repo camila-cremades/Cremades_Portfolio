@@ -12,4 +12,14 @@ Beyond work, I enjoy acroyoga, contemporary dance, and playing board games with 
 
 ### <span style="color: DarkMagenta;">Case Studies</span>
 
+#### [Cluster analysis to determine bill authenticity](https://camila-cremades.github.io/Case-Studies/Cluster_Analysis.html)
+
+The banknote dataset, included in the R package mclust, contains six measurements taken on 100 genuine and 100 counterfeit Swiss 1000-franc bills.
+This study aimed to determine whether a clustering method based on the characteristics of the bills could identify their authenticity.
+
+#### [Regresion Analysis to predict cigarette sales in the USA](https://camila-cremades.github.io/Case-Studies/Lineal_Regresion.html)
+
+A dataset including socioeconomic, demographic variables and cigarette sales in the 50 states of USA was used.
+This study used a regression equation that relates per-capita cigarette consumption across the state (variable Sales) to various socioeconomic and demographic variables to determine whether these variables are useful for predicting cigarette consumption.
+
 #### [Sex prediction from psychological variables](https://camila-cremades.github.io/Case-Studies/Sex-prediction-from-psychological-variables.html)
