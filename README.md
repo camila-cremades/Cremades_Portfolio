@@ -21,9 +21,16 @@ This study aimed to determine whether a clustering method based on the character
 
 The GCSE exam scores dataset from the mlmRev package was used. The objective of this assignment was to evaluate the effects of the different variables in the dataset on an exam score.
 
+#### [Mediation and moderation of psychological variables](https://camila-cremades.github.io/Case-Studies/Mediation_Moderation.html)
+
+Three activities are presented. The efc dataset from the sjPlot package was used to explore whether there is a moderating effect of disability severity on caregiving hours to predict negative affect.
+On the other hand, the dataset affect from the package psyckTools was used to test a mediation model to analyze whether the effect of negative-affect-oriented movies (IV; “peliculas_em_n”) on negative affect (DV; NA2) after watching the movie is explained by the perceived tension in the subjects (M; “TA2”). The same dataset was used to fit a mediation model to analyze whether levels of negative affect mediate the effect of neuroticism on depression.
+
 #### [Regresion Analysis to predict cigarette sales in the USA](https://camila-cremades.github.io/Case-Studies/Lineal_Regresion.html)
 
 A dataset including socioeconomic, demographic variables and cigarette sales in the 50 states of USA was used.
 This study used a regression equation that relates per-capita cigarette consumption across the state (variable Sales) to various socioeconomic and demographic variables to determine whether these variables are useful for predicting cigarette consumption.
 
-#### [Sex prediction from psychological variables](https://camila-cremades.github.io/Case-Studies/Sex-prediction-from-psychological-variables.html)
+#### [Sex prediction from psychological variables using Machine Learning](https://camila-cremades.github.io/Case-Studies/Sex-prediction-from-psychological-variables.html)
+
+### <span style="color: DarkMagenta;">Published papers</span>
