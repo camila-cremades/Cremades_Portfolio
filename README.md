@@ -23,8 +23,7 @@ The GCSE exam scores dataset from the mlmRev package was used. The objective of 
 
 #### [Mediation and moderation of psychological variables](https://camila-cremades.github.io/Case-Studies/Mediation_Moderation.html)
 
-Three activities are presented. The efc dataset from the sjPlot package was used to explore whether there is a moderating effect of disability severity on caregiving hours to predict negative affect.
-On the other hand, the dataset affect from the package psyckTools was used to test a mediation model to analyze whether the effect of negative-affect-oriented movies (IV; “peliculas_em_n”) on negative affect (DV; NA2) after watching the movie is explained by the perceived tension in the subjects (M; “TA2”). The same dataset was used to fit a mediation model to analyze whether levels of negative affect mediate the effect of neuroticism on depression.
+The report presents three activities. First, the efc dataset from the sjPlot package was utilized to investigate the potential moderating effect of disability severity on caregiving hours in predicting negative affect. Additionally, the affect dataset from the psychTools package was employed to test a mediation model, examining whether the impact of negative-affect-oriented movies on negative affect post-viewing is mediated by perceived tension in participants. Furthermore, the same dataset was used to fit another mediation model to explore whether levels of negative affect mediate the relationship between neuroticism and depression.
 
 #### [Regresion Analysis to predict cigarette sales in the USA](https://camila-cremades.github.io/Case-Studies/Lineal_Regresion.html)
 
