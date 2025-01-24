@@ -17,6 +17,10 @@ Beyond work, I enjoy acroyoga, contemporary dance, and playing board games with 
 The banknote dataset, included in the R package mclust, contains six measurements taken on 100 genuine and 100 counterfeit Swiss 1000-franc bills.
 This study aimed to determine whether a clustering method based on the characteristics of the bills could identify their authenticity.
 
+#### [Evaluation of the Effects of Practices and School Type on Exam Scores](https://camila-cremades.github.io/Case-Studies/Lineal_Regresion_2.html)
+
+The GCSE exam scores dataset from the mlmRev package was used. The objective of this assignment was to evaluate the effects of the different variables in the dataset on an exam score.
+
 #### [Regresion Analysis to predict cigarette sales in the USA](https://camila-cremades.github.io/Case-Studies/Lineal_Regresion.html)
 
 A dataset including socioeconomic, demographic variables and cigarette sales in the 50 states of USA was used.
