@@ -25,6 +25,11 @@ The GCSE exam scores dataset from the mlmRev package was used. The objective of 
 
 The report presents three activities. First, the efc dataset from the sjPlot package was utilized to investigate the potential moderating effect of disability severity on caregiving hours in predicting negative affect. Additionally, the affect dataset from the psychTools package was employed to test a mediation model, examining whether the impact of negative-affect-oriented movies on negative affect post-viewing is mediated by perceived tension in participants. Furthermore, the same dataset was used to fit another mediation model to explore whether levels of negative affect mediate the relationship between neuroticism and depression.
 
+#### [Predictors of Job Satisfaction and Employee Performance](https://camila-cremades.github.io/Case-Studies/PractInvI.html)
+
+A team of professionals working in Work Psychology has requested collaboration for data analysis. The team collected information on a sample of 300 employees from a company that provides technological solutions to small and medium-sized businesses. One of their main interests is to identify predictors of job satisfaction and employee performance based on demographic, organizational, and clinical variables. Additionally, they seek to analyse possible associations, correlations, and significant differences considering specific variables.
+This script presents all the analysis and insights drawn from the data.
+
 #### [Regresion Analysis to predict cigarette sales in the USA](https://camila-cremades.github.io/Case-Studies/Lineal_Regresion.html)
 
 A dataset including socioeconomic, demographic variables and cigarette sales in the 50 states of USA was used.
