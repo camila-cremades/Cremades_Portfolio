@@ -17,6 +17,11 @@ Beyond work, I enjoy acroyoga, contemporary dance, and playing board games with 
 The banknote dataset, included in the R package mclust, contains six measurements taken on 100 genuine and 100 counterfeit Swiss 1000-franc bills.
 This study aimed to determine whether a clustering method based on the characteristics of the bills could identify their authenticity.
 
+#### [Efficacy of the Unified Protocol for Emotional Disorders](https://camila-cremades.github.io/Case-Studies/Mix_Lineal_Reg_PU_Eficacy.html)
+
+To test the efficacy of the Unified Protocol, a transdiagnostic intervention for emotional disorders, a randomized controlled study was conducted. Interested participants who met the inclusion criteria were randomly assigned to either the treatment group or the control group (waitlist). Both groups were assessed at three different time points: before starting treatment, at five weeks, and at the end of treatment. The measured variables were depression (using the BDI), anxiety (using the BAI), and emotional dysregulation (using the DERS).
+To determine whether the intervention had positive effects on patients, a mixed-effects model was employed. In this model, time and group variables were included as fixed effects, while patients and items were considered random effects. The analysis focused on comparing the slopes of the different groups and evaluating the interaction between time and treatment conditions.
+
 #### [Evaluation of the Effects of Practices and School Type on Exam Scores](https://camila-cremades.github.io/Case-Studies/Lineal_Regresion_2.html)
 
 The GCSE exam scores dataset from the mlmRev package was used. The objective of this assignment was to evaluate the effects of the different variables in the dataset on an exam score.
@@ -37,4 +42,10 @@ This study used a regression equation that relates per-capita cigarette consumpt
 
 #### [Sex prediction from psychological variables using Machine Learning](https://camila-cremades.github.io/Case-Studies/Sex-prediction-from-psychological-variables.html)
 
+For the following study, a database obtained from the Open Code Psychometrics website was used. The questionnaire consists of 163 items organized into a reasoning scale and 15 primary personality scales, each with 10 items.
+In this study, an optimal supervised model was developed to maximize its predictive capacity in determining whether personality traits could be considered relevant variables for the psychology of sex differences.
+
 ### <span style="color: DarkMagenta;">Published papers</span>
+
+[Celleri, M. & Cremades, C. (2022). Group processes and virtuality: patient experiences in an online intervention based on emotional regulation. In School of Psychology Award University of Buenos Aires 2022. (pp. 11-26). University of Buenos Aires](https://www.psi.uba.ar/premio/2022/calleri.pdf)
+
