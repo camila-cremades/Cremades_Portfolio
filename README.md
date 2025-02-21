@@ -14,8 +14,34 @@ Beyond work, I enjoy acroyoga, contemporary dance, and playing board games with 
 
 #### [Cluster analysis to determine bill authenticity](https://camila-cremades.github.io/Case-Studies/Cluster_Analysis.html)
 
-The banknote dataset, included in the R package mclust, contains six measurements taken on 100 genuine and 100 counterfeit Swiss 1000-franc bills.
-This study aimed to determine whether a clustering method based on the characteristics of the bills could identify their authenticity.
+**Project Objective**
+To determine whether a clustering method based on physical measurements can effectively detect authenticity of Swiss 1000-franc bills (genuine vs. counterfeit).
+
+**Data Used**
+The banknote dataset from R package mclust containing:
+- 200 observations (100 genuine, 100 counterfeit)
+- Six physical measurements: Length, Left margin width, Right margin width, Bottom margin width, Top margin width, and Diagonal length (all in mm)
+- Status variable indicating authenticity (genuine/counterfeit)
+
+**Statistical Procedure**
+1. Data preparation: Created standardized dataset (Bills_Std) excluding the status variable
+2. Cluster tendency assessment: Hopkins statistic (0.26) indicated potential for clustering
+3. Optimal cluster determination using multiple methods:
+- Elbow, Silhouette, and GAP methods all suggested 2 clusters
+- Hierarchical clustering dendrogram confirmed 2 distinct groups
+4. K-means clustering with k=2 applied to the standardized dataset
+5. Comparison of cluster assignments with actual bill status
+
+**Key Findings**
+- Clustering analysis successfully identified two distinct groups corresponding to genuine and counterfeit bills
+- Classification accuracy:
+  - 100% of counterfeit bills correctly classified
+  - 92% of genuine bills correctly classified
+  - 96% overall classification accuracy
+- Principal Component Analysis (PCA) visualization showed clear separation between genuine bills (right side) and counterfeit bills (left side)
+- The study concludes that physical measurements (dimensions and margins) of bills are highly effective for determining bill authenticity
+
+<img src="Plot_Cluster.png" width="100%" />
 
 #### [Efficacy of the Unified Protocol for Emotional Disorders](https://camila-cremades.github.io/Case-Studies/Mix_Lineal_Reg_PU_Eficacy.html)
 
