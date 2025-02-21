@@ -14,10 +14,10 @@ Beyond work, I enjoy acroyoga, contemporary dance, and playing board games with 
 
 ### [Cluster analysis to determine bill authenticity](https://camila-cremades.github.io/Case-Studies/Cluster_Analysis.html)
 
-**Project Objective**
+**Project Objective**<br>
 To determine whether a clustering method based on physical measurements can effectively detect authenticity of Swiss 1000-franc bills (genuine vs. counterfeit).
 
-**Data Used**
+**Data Used**<br>
 The banknote dataset from R package mclust containing:
 - 200 observations (100 genuine, 100 counterfeit)
 - Six physical measurements: Length, Left margin width, Right margin width, Bottom margin width, Top margin width, and Diagonal length (all in mm)
@@ -41,30 +41,30 @@ The banknote dataset from R package mclust containing:
 - Principal Component Analysis (PCA) visualization showed clear separation between genuine bills (right side) and counterfeit bills (left side)
 - The study concludes that physical measurements (dimensions and margins) of bills are highly effective for determining bill authenticity
 
-<img src="Plot_Cluster.png" width="100%" />
+<img src="Plot_Cluster.png" width="60%" />
 
 ### [Efficacy of the Unified Protocol for Emotional Disorders](https://camila-cremades.github.io/Case-Studies/Mix_Lineal_Reg_PU_Eficacy.html)
 
-**Project Objective**
+**Project Objective**<br>
 To evaluate the efficacy of the Unified Protocol, a transdiagnostic intervention for emotional disorders, by comparing treatment and control (waitlist) groups across multiple outcome measures.
 
-**Method**
-Study design: Randomized controlled trial
-Sample: 46 participants randomized to treatment or waitlist control
-Assessment points: Baseline (week 0), mid-treatment (week 5), and post-treatment (week 10)
+**Method**<br>
+Study design: Randomized controlled trial<br>
+Sample: 46 participants randomized to treatment or waitlist control<br>
+Assessment points: Baseline (week 0), mid-treatment (week 5), and post-treatment (week 10)<br>
 Outcome measures:
 - Emotional Dysregulation (DERS): 30-item scale
 - Depression (BDI): 21-item scale
 - Anxiety (BAI): 21-item scale
 
-**Statistical Procedure**
+**Statistical Procedure**<br>
 Mixed-effects linear modeling with:
 - Fixed effects: Time (weeks), condition (treatment vs. control), and their interaction
 - Random effects: Participant ID and questionnaire items
 - Model comparison between base models (random effects only) and full models (with fixed effects)
 - End-of-treatment group comparisons using adjusted marginal means (emmeans)
 
-**Key Findings**
+**Key Findings**<br>
 Emotional Dysregulation (DERS):
 - Significant interaction between time and treatment condition (b = -0.08, p < .001)
 - At week 10, treatment group showed significantly lower emotional dysregulation (difference = 0.98, p < .001)
@@ -82,21 +82,21 @@ Overall, the Unified Protocol demonstrated significant efficacy in reducing emot
 
 ### [Evaluation of the Effects of Practices and School Type on Exam Scores](https://camila-cremades.github.io/Case-Studies/Lineal_Regresion_2.html)
 
-**Objective**
+**Objective**<br>
 The study aimed to evaluate the effects of course performance ("exercise in the course") on written exam scores, analyzing both within-school and between-school variations.
 
-**Data**
+**Data**<br>
 The analysis used the GCSE exam scores dataset from the mlmRev package, containing variables for schools, students, gender, written exam scores, and course performance metrics.
 
-**Statistical Procedure**
+**Statistical Procedure**<br>
 Hybrid Random Effects Models (HREM) were employed to separate and analyze both within-school and between-school effects:
 - Unconditional Model: Established baseline variation in written exam scores
 - Fixed Effects Model: Examined effects of within-school (course_wt) and between-school (c_course_bw) course performance
 - Random Effects Model: Added random slopes for within-school course performance
 - Interaction Model: Tested cross-level interactions between within-school and between-school effects
-Models were compared using likelihood ratio tests and evaluated using AIC/BIC criteria.
+- Models were compared using likelihood ratio tests and evaluated using AIC/BIC criteria.
 
-**Key Findings**
+**Key Findings**<br>
 - Baseline Performance: The average written exam score across all schools was 47.6 points, with significant between-school variation (ICC = 0.28)
 - Within-School Effects: Students who scored higher than their school's average in coursework showed significantly better written exam performance (β = 0.36, p < .001)
 - Between-School Effects: Schools with higher average coursework scores produced students with significantly better written exam scores (β = 0.34, p < .001)
@@ -105,32 +105,32 @@ Models were compared using likelihood ratio tests and evaluated using AIC/BIC cr
 
 The findings demonstrate that course performance significantly impacts written exam scores at both individual and institutional levels, highlighting the importance of coursework quality across educational contexts.
 
-<img src="LinReg_2.png" width="100%" />
+<img src="LinReg_2.png" width="60%" />
 
 ### [Mediation and moderation of psychological variables](https://camila-cremades.github.io/Case-Studies/Mediation_Moderation.html)
 
-**Objective**
+**Objective**<br>
 The project investigated three main relationships:
 1. Whether disability severity moderates the effect of caregiving hours on negative affect
 2. Whether perceived tension mediates the effect of negative-affect-oriented movies on negative affect
 3. Whether negative affect mediates the relationship between neuroticism and depression
 
-**Data Sources**
-Activity 1: efc dataset from sjPlot package
+**Data Sources**<br>
+Activity 1: efc dataset from sjPlot package<br>
 Activities 2 & 3: affect dataset from psychTools package
 
-**Statistical Procedures**
-Activity 1: Moderation analysis using regression with interaction terms
-Activity 2: Mediation analysis using MBESS package with bootstrapping (10,000 iterations)
-Activity 3: Mediation analysis using mediation package with bootstrapping (10,000 iterations)
+**Statistical Procedures**<br>
+Activity 1: Moderation analysis using regression with interaction terms<br>
+Activity 2: Mediation analysis using MBESS package with bootstrapping (10,000 iterations)<br>
+Activity 3: Mediation analysis using mediation package with bootstrapping (10,000 iterations)<br>
 
-**Key Findings**
+**Key Findings**<br>
 Activity 1: Moderation Effect
 - Disability severity significantly moderated the relationship between caregiving hours and negative affect (B = 0.0002, p < .01)
 - As disability severity increased, the effect of caregiving hours on negative affect also increased
 - The main effect of disability severity was significant (B = -0.05, p < .001)
 
-<img src="Ej_22.jpg" width="100%" />
+<img src="Ej_22.jpg" width="60%" />
 
 Activity 2: Mediation Analysis (Movies → Tension → Negative Affect)
 - Total effect (c): Negative-affect movies significantly increased negative affect (B = 4.73, p < .001)
@@ -139,7 +139,7 @@ Activity 2: Mediation Analysis (Movies → Tension → Negative Affect)
 - Direct effect (c'): Effect decreased when controlling for tension (B = 2.30, p < .001)
 - Significant indirect effect through perceived tension (B = 2.42, 95% CI [1.80, 3.08])
 
-<img src="Ej_31.jpg" width="100%" />
+<img src="Ej_31.jpg" width="60%" />
 
 Activity 3: Mediation Analysis (Neuroticism → Negative Affect → Depression)
 - Total effect (c): Neuroticism significantly predicted depression (B = 0.03, p < .001)
@@ -148,23 +148,23 @@ Activity 3: Mediation Analysis (Neuroticism → Negative Affect → Depression)
 - Direct effect (c'): Effect decreased when controlling for negative affect (B = 0.019, p < .001)
 - Significant indirect effect through negative affect (B = 0.011, 95% CI [0.005, 0.02])
 
-<img src="Ej_32.jpg" width="100%" />
+<img src="Ej_32.jpg" width="60%" />
 
 This study demonstrates the importance of considering both mediating and moderating variables when examining psychological relationships, particularly in caregiving contexts and emotional responses.
 
 ### [Predictors of Job Satisfaction and Employee Performance](https://camila-cremades.github.io/Case-Studies/PractInvI.html)
 
-**Objective**
+**Objective**<br>
 This study aimed to identify key predictors of job satisfaction and employee performance in a sample of 300 employees from a technology solutions company, analyzing relationships between demographic, organizational, and clinical variables.
 
-**Data Used**
+**Data Used**<br>
 The dataset included 300 employees with variables including:
 - Demographic: Gender (female/male)
 - Work-related: Job type (4 categories), Home office status, Job satisfaction, Performance
 - Psychological: Cognitive flexibility, Work environment perception, Self-esteem, Future job outlook, Anxiety, Depression
 - Other: Intelligence, Social network
 
-**Statistical Procedures**
+**Statistical Procedures**<br>
 1. Descriptive statistics and normality testing for all variables
 2. Chi-square tests to analyze associations between categorical variables
 3. T-tests and ANOVA to compare job satisfaction across groups
@@ -172,13 +172,13 @@ The dataset included 300 employees with variables including:
 5. Multiple regression analysis using stepwise selection for job satisfaction prediction
 6. Logistic regression with ROC curve analysis for employee performance prediction
 
-**Key Findings**
+**Key Findings**<br>
 Group Differences in Job Satisfaction
 - Gender: Women reported significantly higher job satisfaction (M = 54.11, SD = 9.95) than men (M = 46.98, SD = 8.92), t(254) = -6.40, p < .001, d = 0.76, representing a moderate effect.
 - Home Office: Employees working from home reported significantly higher job satisfaction (M = 54.11, SD = 9.43) than those working in-person (M = 45.42, SD = 8.54), t(298) = -8.37, p < .001, d = 0.97, representing a large effect.
 - Job Type: Significant differences were found between job types, F(3, 296) = 3.50, p = .016, η² = .03. Post-hoc Tukey tests revealed that customer service employees had significantly lower job satisfaction compared to marketing employees (p < .05).
 
-Job Satisfaction Predictors
+Job Satisfaction Predictors<br>
 A multiple regression model explained 92% of variance in job satisfaction (F(6,239) = 525.9, p < .001). Significant predictors included:
 - Cognitive flexibility (β = 0.92, p < .001) - positive relationship
 - Work environment perception (β = -0.75, p < .001) - negative relationship
@@ -187,22 +187,22 @@ A multiple regression model explained 92% of variance in job satisfaction (F(6,2
 - Anxiety (β = -0.58, p < .001) - negative relationship
 - Depression (β = 0.67, p < .001) - positive relationship
 
-Employee Performance Predictors
+Employee Performance Predictors<br>
 The logistic regression model showed excellent predictive accuracy (ROC = 0.99), with sensitivity of 97.89% and specificity of 91.14%. Key findings included:
 - Work environment perception had the strongest positive impact: a 12-point increase multiplied the odds of satisfactory performance by 5,034 times
 - Job satisfaction showed a strong positive effect: a 10-point increase multiplied performance odds by 177.5 times
 - Cognitive flexibility showed a negative relationship: a 15-point increase decreased performance odds by 89 times
 - Job type was significant: customer service and sales employees had 94 times lower odds of satisfactory performance compared to marketing employees
 
-**Conclusion**
+**Conclusion**<br>
 The analysis revealed that job satisfaction is significantly influenced by work arrangements (home office), gender, and job type. The regression models identified key psychological factors that predict both job satisfaction and performance, with work environment perception emerging as particularly important for performance outcomes. These findings provide valuable insights for developing targeted organizational interventions to enhance employee satisfaction and performance.
 
 ### [Regresion Analysis to predict cigarette sales in the USA](https://camila-cremades.github.io/Case-Studies/Lineal_Regresion.html)
 
-**Objective**
+**Objective**<br>
 To construct a regression model that relates per-capita cigarette consumption (Sales) across U.S. states to various socioeconomic and demographic variables, and to determine whether these variables are useful predictors of cigarette consumption.
 
-**Data Used**
+**Data Used**<br>
 The dataset contained information from all 50 U.S. states with the following variables:
 - SALES: Per-capita cigarette consumption
 - AGE: Percentage of the population aged 16-24
@@ -235,6 +235,8 @@ The findings suggest that higher income levels increase cigarette consumption wh
 
 For the following study, a database obtained from the Open Code Psychometrics website was used. The questionnaire consists of 163 items organized into a reasoning scale and 15 primary personality scales, each with 10 items.
 In this study, an optimal supervised model was developed to maximize its predictive capacity in determining whether personality traits could be considered relevant variables for the psychology of sex differences.
+
+
 
 ## <span style="color: DarkMagenta;">Published papers</span>
 
