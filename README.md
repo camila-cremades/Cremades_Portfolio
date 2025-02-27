@@ -79,6 +79,7 @@ Anxiety (BAI):
 
 Overall, the Unified Protocol demonstrated significant efficacy in reducing emotional dysregulation, depression, and anxiety symptoms compared to waitlist control, with improvements becoming more pronounced over the course of treatment.
 
+<img src="PU.png" width="60%" />
 
 ### [Evaluation of the Effects of Practices and School Type on Exam Scores](https://camila-cremades.github.io/Case-Studies/Lineal_Regresion_2.html)
 
