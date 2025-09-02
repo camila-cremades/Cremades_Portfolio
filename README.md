@@ -241,6 +241,8 @@ In this study, an optimal supervised model was developed to maximize its predict
 
 ## <span style="color: DarkMagenta;">Published papers</span>
 
+[Celleri, M., Cremades, C. F., Rojas, R. L. & Garay, C. J. (2025). Neuroticismo, sintomatología psicopatológica y habilidades de conciencia emocional plena: estudio piloto sobre su impacto utilizando el Protocolo Unificado en Argentina. Revista Argentina De Ciencias Del Comportamiento, 17(2), 46-53. https://doi.org/10.32348/1852.4206.v17.n2.36729](https://revistas.unc.edu.ar/index.php/racc/article/view/36729)
+
 [Celleri, M., Klajner, F., Cremades, F. C., Garay, C. J., Etchevers, M., & Osma, J. (2025). Usability and Acceptance by Therapists and Users of an Internet‐Based Intervention Based on the Unified Protocol in Argentina. Journal of Clinical Psychology. https://doi.org/10.1002/jclp.70037](https://onlinelibrary.wiley.com/doi/10.1002/jclp.70037)
 
 [Rodante, D. E., Bellotti, M., Boscolo, M., Cremades, C., Melone, M., Gagliesi, P., & Mehlum, L. (2024). Safety Planning Intervention Training Among Early Career Mental Health Professionals: Perception of Self-Efficacy, Usefulness and Feasibility. Archives of Suicide Research, 1–15. https://doi.org/10.1080/13811118.2024.2335956](https://www.tandfonline.com/doi/full/10.1080/13811118.2024.2335956)
