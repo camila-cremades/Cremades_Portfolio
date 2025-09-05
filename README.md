@@ -1,6 +1,28 @@
 # <span style="color: purple;">Camila Cremades' Portfolio</span>
 
-## <span style="color: DarkMagenta;">About me</span>
+<div class="sidebar">
+  <h2>Índice</h2>
+  <ul>
+    <li><a href="#about">About Me</a></li>
+    <li>
+      <a href="#case-studies">Case Studies</a>
+      <ul>
+        <li><a href="#cluster">Cluster analysis to determine bill authenticity</a></li>
+        <li><a href="#pu">Efficacy of the Unified Protocol</a></li>
+        <li><a href="#exam">Effects of Practices and School Type</a></li>
+        <li><a href="#mediation">Mediation and Moderation</a></li>
+        <li><a href="#job">Predictors of Job Satisfaction</a></li>
+        <li><a href="#cigarettes">Regression Analysis (Cigarette Sales)</a></li>
+        <li><a href="#sex">Sex prediction with ML</a></li>
+      </ul>
+    </li>
+    <li><a href="#papers">Published Papers</a></li>
+  </ul>
+</div>
+
+<div class="content">
+  
+## <span id="about">About me</span>
 
 <img src="FotoCami.jpg" width="20%" />
 
@@ -10,9 +32,9 @@ I am currently a forum moderator for the Google Data Analytics courses on Course
 
 Beyond work, I enjoy acroyoga, contemporary dance, and playing board games with friends. For me, answering questions through data feels like solving a captivating board game mystery, unraveling clues and discovering meaningful solutions.
 
-## <span style="color: DarkMagenta;">Case Studies</span>
+<h2 id="case-studies"><span style="color: DarkMagenta;">Case Studies</span></h2>
 
-### [Cluster analysis to determine bill authenticity](https://camila-cremades.github.io/Case-Studies/Cluster_Analysis.html)
+### <span id="cluster"></span>[Cluster analysis to determine bill authenticity](https://camila-cremades.github.io/Case-Studies/Cluster_Analysis.html)
 
 **Project Objective**<br>
 To determine whether a clustering method based on physical measurements can effectively detect authenticity of Swiss 1000-franc bills (genuine vs. counterfeit).
@@ -43,7 +65,7 @@ The banknote dataset from R package mclust containing:
 
 <img src="Plot_Cluster.png" width="60%" />
 
-### [Efficacy of the Unified Protocol for Emotional Disorders](https://camila-cremades.github.io/Case-Studies/Mix_Lineal_Reg_PU_Eficacy.html)
+### <span id="pu"></span>[Efficacy of the Unified Protocol for Emotional Disorders](https://camila-cremades.github.io/Case-Studies/Mix_Lineal_Reg_PU_Eficacy.html)
 
 **Project Objective**<br>
 To evaluate the efficacy of the Unified Protocol, a transdiagnostic intervention for emotional disorders, by comparing treatment and control (waitlist) groups across multiple outcome measures.
@@ -81,7 +103,7 @@ Overall, the Unified Protocol demonstrated significant efficacy in reducing emot
 
 <img src="PU.png" width="60%" />
 
-### [Evaluation of the Effects of Practices and School Type on Exam Scores](https://camila-cremades.github.io/Case-Studies/Lineal_Regresion_2.html)
+### <span id="exam"></span>[Evaluation of the Effects of Practices and School Type on Exam Scores](https://camila-cremades.github.io/Case-Studies/Lineal_Regresion_2.html)
 
 **Objective**<br>
 The study aimed to evaluate the effects of course performance ("exercise in the course") on written exam scores, analyzing both within-school and between-school variations.
@@ -108,7 +130,7 @@ The findings demonstrate that course performance significantly impacts written e
 
 <img src="LinReg_2.png" width="60%" />
 
-### [Mediation and moderation of psychological variables](https://camila-cremades.github.io/Case-Studies/Mediation_Moderation.html)
+### <span id="mediation"></span>[Mediation and moderation of psychological variables](https://camila-cremades.github.io/Case-Studies/Mediation_Moderation.html)
 
 **Objective**<br>
 The project investigated three main relationships:
@@ -153,7 +175,7 @@ Activity 3: Mediation Analysis (Neuroticism → Negative Affect → Depression)
 
 This study demonstrates the importance of considering both mediating and moderating variables when examining psychological relationships, particularly in caregiving contexts and emotional responses.
 
-### [Predictors of Job Satisfaction and Employee Performance](https://camila-cremades.github.io/Case-Studies/PractInvI.html)
+### <span id="job"></span>[Predictors of Job Satisfaction and Employee Performance](https://camila-cremades.github.io/Case-Studies/PractInvI.html)
 
 **Objective**<br>
 This study aimed to identify key predictors of job satisfaction and employee performance in a sample of 300 employees from a technology solutions company, analyzing relationships between demographic, organizational, and clinical variables.
@@ -198,7 +220,7 @@ The logistic regression model showed excellent predictive accuracy (ROC = 0.99),
 **Conclusion**<br>
 The analysis revealed that job satisfaction is significantly influenced by work arrangements (home office), gender, and job type. The regression models identified key psychological factors that predict both job satisfaction and performance, with work environment perception emerging as particularly important for performance outcomes. These findings provide valuable insights for developing targeted organizational interventions to enhance employee satisfaction and performance.
 
-### [Regresion Analysis to predict cigarette sales in the USA](https://camila-cremades.github.io/Case-Studies/Lineal_Regresion.html)
+### <span id="cigarettes"></span>[Regression Analysis to predict cigarette sales in the USA](https://camila-cremades.github.io/Case-Studies/Lineal_Regresion.html)
 
 **Objective**<br>
 To construct a regression model that relates per-capita cigarette consumption (Sales) across U.S. states to various socioeconomic and demographic variables, and to determine whether these variables are useful predictors of cigarette consumption.
@@ -232,14 +254,14 @@ The dataset contained information from all 50 U.S. states with the following var
 
 The findings suggest that higher income levels increase cigarette consumption while higher prices reduce it, confirming basic economic theory of consumer behavior in this market.
 
-### [Sex prediction from psychological variables using Machine Learning](https://camila-cremades.github.io/Case-Studies/Sex-prediction-from-psychological-variables.html)
+### <span id="sex"></span>[Sex prediction from psychological variables using Machine Learning](https://camila-cremades.github.io/Case-Studies/Sex-prediction-from-psychological-variables.html)
 
 For the following study, a database obtained from the Open Code Psychometrics website was used. The questionnaire consists of 163 items organized into a reasoning scale and 15 primary personality scales, each with 10 items.
 In this study, an optimal supervised model was developed to maximize its predictive capacity in determining whether personality traits could be considered relevant variables for the psychology of sex differences.
 
 
 
-## <span style="color: DarkMagenta;">Published papers</span>
+<h2 id="papers"><span style="color: DarkMagenta;">Published Papers</span></h2>
 
 [Celleri, M., Cremades, C. F., Rojas, R. L. & Garay, C. J. (2025). Neuroticismo, sintomatología psicopatológica y habilidades de conciencia emocional plena: estudio piloto sobre su impacto utilizando el Protocolo Unificado en Argentina. Revista Argentina De Ciencias Del Comportamiento, 17(2), 46-53. https://doi.org/10.32348/1852.4206.v17.n2.36729](https://revistas.unc.edu.ar/index.php/racc/article/view/36729)
 
@@ -276,3 +298,58 @@ Cremades, C., Celleri, M., Menendez, A. & Garay, C. J. (2022). Multidimensional 
 [Donatti, S., Cremades, C., Ortega, I., Pérez Vasaro, D., Koutsovitis, F., & Garay, C. (2020). Mobile applications in Spanish for Irritable Bowel Syndrome: a systematic review. Anuario de Investigaciones, 27, 19-24.](https://www.psi.uba.ar/investigaciones/revistas/anuario/trabajos_completos/27/donatti.pdf)
 
 [Cremades, C., Garay, C., Etchevers, M. (2019). A systematic review of efficacy studies on the treatment emotional dysregulation from a transdiagnostic paradigm. Acta Psiquiátr Psicol Am Lat,65(2), 99-87](https://psycnet.apa.org/record/2020-13882-003)
+
+</div>
+
+<style>
+  body {
+    display: flex;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  .sidebar {
+    position: fixed;
+    top: 0; left: 0;
+    width: 250px; height: 100%;
+    background: #f5f5f5;
+    padding: 20px 10px;
+    border-right: 1px solid #ccc;
+    overflow-y: auto;
+  }
+  .sidebar h2 {
+    text-align: center;
+    color: purple;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .sidebar ul {
+    list-style-type: none;
+    padding-left: 10px;
+  }
+  .sidebar ul ul {
+    margin-left: 10px;
+    border-left: 2px solid #ccc;
+    padding-left: 10px;
+  }
+  .sidebar li {
+    margin: 5px 0;
+  }
+  .sidebar a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 4px 8px;
+    border-radius: 5px;
+  }
+  .sidebar a:hover {
+    background: #ddd;
+  }
+  .content {
+    margin-left: 270px;
+    padding: 20px;
+    max-width: 900px;
+  }
+  h1, h2 {
+    color: DarkMagenta;
+  }
+</style>
