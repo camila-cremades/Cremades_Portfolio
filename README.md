@@ -1,25 +1,3 @@
-<div style="float: left; width: 25%; margin-right: 20px; background-color:#f9f9f9; padding:10px; border:1px solid #ddd; border-radius:8px;">
-  <h3>Índice</h3>
-  <ul>
-    <li><a href="#about-me">About Me</a></li>
-    <li>
-      <a href="#case-studies">Case Studies</a>
-      <ul>
-        <li><a href="#cluster-analysis-to-determine-bill-authenticity">Cluster analysis to determine bill authenticity</a></li>
-        <li><a href="#efficacy-of-the-unified-protocol-for-emotional-disorders">Efficacy of the Unified Protocol for Emotional Disorders</a></li>
-        <li><a href="#evaluation-of-the-effects-of-practices-and-school-type-on-exam-scores">Evaluation of the Effects of Practices and School Type on Exam Scores</a></li>
-        <li><a href="#mediation-and-moderation-of-psychological-variables">Mediation and Moderation of Psychological Variables</a></li>
-        <li><a href="#predictors-of-job-satisfaction-and-employee-performance">Predictors of Job Satisfaction and Employee Performance</a></li>
-        <li><a href="#regression-analysis-to-predict-cigarette-sales-in-the-usa">Regresion Analysis to predict cigarette sales in the USA</a></li>
-        <li><a href="#sex-prediction-from-psychological-variables-using-machine-learning">Sex Prediction from Psychological Variables using Machine Learning</a></li>
-      </ul>
-    </li>
-    <li><a href="#published-papers">Published Papers</a></li>
-  </ul>
-</div>
-
-<div style="margin-left: 30%;">
-
 # <span style="color: purple;">Camila Cremades' Portfolio</span>
 
 ## <span style="color: DarkMagenta;">About me</span>
@@ -299,5 +277,3 @@ Cremades, C., Celleri, M., Menendez, A. & Garay, C. J. (2022). Multidimensional 
 
 [Cremades, C., Garay, C., Etchevers, M. (2019). A systematic review of efficacy studies on the treatment emotional dysregulation from a transdiagnostic paradigm. Acta Psiquiátr Psicol Am Lat,65(2), 99-87](https://psycnet.apa.org/record/2020-13882-003)
 
-
-</div>
