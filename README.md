@@ -1,3 +1,25 @@
+<div style="float: left; width: 25%; margin-right: 20px; background-color:#f9f9f9; padding:10px; border:1px solid #ddd; border-radius:8px;">
+  <h3>Índice</h3>
+  <ul>
+    <li><a href="#about-me">About Me</a></li>
+    <li>
+      <a href="#case-studies">Case Studies</a>
+      <ul>
+        <li><a href="#cluster-analysis-to-determine-bill-authenticity">Cluster analysis to determine bill authenticity</a></li>
+        <li><a href="#efficacy-of-the-unified-protocol-for-emotional-disorders">Efficacy of the Unified Protocol for Emotional Disorders</a></li>
+        <li><a href="#evaluation-of-the-effects-of-practices-and-school-type-on-exam-scores">Evaluation of the Effects of Practices and School Type on Exam Scores</a></li>
+        <li><a href="#mediation-and-moderation-of-psychological-variables">Mediation and Moderation of Psychological Variables</a></li>
+        <li><a href="#predictors-of-job-satisfaction-and-employee-performance">Predictors of Job Satisfaction and Employee Performance</a></li>
+        <li><a href="#regression-analysis-to-predict-cigarette-sales-in-the-usa">Regresion Analysis to predict cigarette sales in the USA</a></li>
+        <li><a href="#sex-prediction-from-psychological-variables-using-machine-learning">Sex Prediction from Psychological Variables using Machine Learning</a></li>
+      </ul>
+    </li>
+    <li><a href="#published-papers">Published Papers</a></li>
+  </ul>
+</div>
+
+<div style="margin-left: 30%;">
+
 # <span style="color: purple;">Camila Cremades' Portfolio</span>
 
 ## <span style="color: DarkMagenta;">About me</span>
@@ -108,7 +130,7 @@ The findings demonstrate that course performance significantly impacts written e
 
 <img src="LinReg_2.png" width="60%" />
 
-### [Mediation and moderation of psychological variables](https://camila-cremades.github.io/Case-Studies/Mediation_Moderation.html)
+### [Mediation and moderation of Psychological Variables](https://camila-cremades.github.io/Case-Studies/Mediation_Moderation.html)
 
 **Objective**<br>
 The project investigated three main relationships:
@@ -198,7 +220,7 @@ The logistic regression model showed excellent predictive accuracy (ROC = 0.99),
 **Conclusion**<br>
 The analysis revealed that job satisfaction is significantly influenced by work arrangements (home office), gender, and job type. The regression models identified key psychological factors that predict both job satisfaction and performance, with work environment perception emerging as particularly important for performance outcomes. These findings provide valuable insights for developing targeted organizational interventions to enhance employee satisfaction and performance.
 
-### [Regresion Analysis to predict cigarette sales in the USA](https://camila-cremades.github.io/Case-Studies/Lineal_Regresion.html)
+### [Regression Analysis to Predict Cigarette Sales in the USA](https://camila-cremades.github.io/Case-Studies/Lineal_Regresion.html)
 
 **Objective**<br>
 To construct a regression model that relates per-capita cigarette consumption (Sales) across U.S. states to various socioeconomic and demographic variables, and to determine whether these variables are useful predictors of cigarette consumption.
@@ -232,7 +254,7 @@ The dataset contained information from all 50 U.S. states with the following var
 
 The findings suggest that higher income levels increase cigarette consumption while higher prices reduce it, confirming basic economic theory of consumer behavior in this market.
 
-### [Sex prediction from psychological variables using Machine Learning](https://camila-cremades.github.io/Case-Studies/Sex-prediction-from-psychological-variables.html)
+### [Sex prediction from Psychological Variables using Machine Learning](https://camila-cremades.github.io/Case-Studies/Sex-prediction-from-psychological-variables.html)
 
 For the following study, a database obtained from the Open Code Psychometrics website was used. The questionnaire consists of 163 items organized into a reasoning scale and 15 primary personality scales, each with 10 items.
 In this study, an optimal supervised model was developed to maximize its predictive capacity in determining whether personality traits could be considered relevant variables for the psychology of sex differences.
@@ -276,3 +298,6 @@ Cremades, C., Celleri, M., Menendez, A. & Garay, C. J. (2022). Multidimensional 
 [Donatti, S., Cremades, C., Ortega, I., Pérez Vasaro, D., Koutsovitis, F., & Garay, C. (2020). Mobile applications in Spanish for Irritable Bowel Syndrome: a systematic review. Anuario de Investigaciones, 27, 19-24.](https://www.psi.uba.ar/investigaciones/revistas/anuario/trabajos_completos/27/donatti.pdf)
 
 [Cremades, C., Garay, C., Etchevers, M. (2019). A systematic review of efficacy studies on the treatment emotional dysregulation from a transdiagnostic paradigm. Acta Psiquiátr Psicol Am Lat,65(2), 99-87](https://psycnet.apa.org/record/2020-13882-003)
+
+
+</div>
